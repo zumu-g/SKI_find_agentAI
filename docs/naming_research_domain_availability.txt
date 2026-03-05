@@ -1,0 +1,497 @@
+DOMAIN AVAILABILITY & NAMING STRATEGY RESEARCH
+================================================
+Prepared: 5 March 2026
+For: Naming Committee - UK Estate Agent Comparison Platform (working name: "Kova")
+Agent: Domain Availability & Naming Strategy Agent
+
+================================================================================
+SECTION 1: MARKET LANDSCAPE & NAMING PRINCIPLES
+================================================================================
+
+KEY COMPETITORS ALREADY OPERATING IN THIS SPACE:
+- GetAgent.co.uk - major player since 2015, 1.2M+ homeowners served, 8,000+ agents
+- BestAgent.co.uk - active, video introductions from local agents
+- CompareAgents.uk - active comparison tool
+- Compare-Agents.com - active, real-time sales data
+- ChooseMyAgent.co.uk - active comparison platform
+- SellMyHome.co.uk - online estate agent since 2013, RICS regulated
+- OnlineAgentPicker.com - comparison site
+- CompareEstateAgents.which.co.uk - Which? branded
+- CompareOnlineAgents.co.uk - active
+- CompareEstatesAgents.co.uk - active
+- CompareStateAgents.co.uk - active
+- Swoople.com - agent comparison
+- OneDome.com - find & compare agents
+- AllAgents.co.uk - reviews platform
+
+SUCCESSFUL UK COMPARISON/MARKETPLACE BRAND NAME PATTERNS:
+- Compound descriptive: MoneySupermarket, CompareTheMarket, GoCompare
+- Action verb: Checkatrade, Confused.com, uSwitch
+- Abstract/invented: Zoopla (property), Yopa (Your Online Property Agent), Emoov
+- These brands dominate through familiarity - 62.2% of users return because they used them before
+
+WHAT MAKES A GOOD NAME (from research):
+- Short, memorable, easy to spell and pronounce
+- Evocative of the brand purpose
+- Scalable (won't outgrow the name)
+- Ideally includes or implies a high-traffic keyword
+- For UK: .co.uk builds trust, .com builds global credibility
+
+================================================================================
+SECTION 2: CANDIDATE NAME LIST - KEYWORD-RICH DESCRIPTIVE NAMES
+================================================================================
+(Names containing "agent", "sell", "home", "property")
+
+1. AgentPick
+   .com: No active property site found. Likely available or parked.
+   .co.uk: No active site found in searches.
+   CONFLICT CHECK: No direct competitor found. "OnlineAgentPicker.com" exists but different name.
+
+2. PickMyAgent
+   .com/.co.uk: No active property site found in searches.
+   CONFLICT CHECK: No known competitor.
+
+3. HomeAgent
+   .com/.co.uk: No active UK property site found under this exact name.
+   CONFLICT CHECK: Clear in UK property space.
+
+4. AgentHome
+   .com/.co.uk: No active property site found.
+   CONFLICT CHECK: Clear.
+
+5. SellRight
+   .com/.co.uk: "Sell Right Estate Agents" exists in Pontypridd, Wales (let-right.co.uk/sales-hub/).
+   CONFLICT CHECK: LOCAL CONFLICT - small Welsh estate agent uses this name.
+
+6. RightAgent
+   .com/.co.uk: No active site found.
+   CONFLICT CHECK: Clear, but could be confused with Rightmove.
+
+7. AgentCompare
+   .com/.co.uk: No exact match found but VERY CROWDED space - Compare-Agents.com, CompareAgents.uk, CompareEstateAgents all exist.
+   CONFLICT CHECK: HIGH RISK of confusion with multiple existing competitors.
+
+8. CompareAgents
+   .co.uk: TAKEN - CompareAgents.uk is an active comparison site.
+   CONFLICT CHECK: TAKEN.
+
+9. BestAgent
+   .co.uk: TAKEN - BestAgent.co.uk is an active platform helping movers find agents.
+   CONFLICT CHECK: TAKEN.
+
+10. TopAgent
+    .com/.co.uk: No active UK property site found under this exact name.
+    CONFLICT CHECK: Top10PropertyAgents.co.uk exists but different.
+
+11. AgentMatch
+    .com: AgentMatch.realestate exists (US-based real estate matching).
+    .ai: AgentMatch.ai exists (US, "Top 1% agents").
+    .us: AgentMatch.us exists.
+    CONFLICT CHECK: HEAVILY USED across multiple TLDs. Confirmed taken in multiple forms.
+
+12. HomeSold
+    .com/.co.uk: No active UK site found.
+    CONFLICT CHECK: MaxSold.com exists (estate auctions) but different name.
+
+13. SoldRight
+    .ie: TAKEN - SoldRight.ie is an Irish estate agent comparison site.
+    .com/.co.uk: Not found as active UK site.
+    CONFLICT CHECK: Irish competitor exists. Risk of brand confusion in British Isles.
+
+14. SellMax
+    .com/.co.uk: SELLMAX LIMITED is a registered UK company (Companies House #07440152).
+    CONFLICT CHECK: UK company registration exists. HIGH RISK.
+
+15. MaxSell
+    .com/.co.uk: MAXSELL LTD is a registered UK company (Companies House #10778604).
+    CONFLICT CHECK: UK company registration exists. HIGH RISK.
+
+16. AgentRank
+    .com/.co.uk: No active UK property site found.
+    CONFLICT CHECK: RankMyAgent.com exists (Canadian, 100k+ reviews) but different name.
+
+17. RankMyAgent
+    .com: TAKEN - major Canadian real estate review platform, 100,000+ verified reviews.
+    CONFLICT CHECK: TAKEN.
+
+18. AgentScore
+    .com/.co.uk: No active property site found.
+    CONFLICT CHECK: Appears clear.
+
+19. ScoreMyAgent
+    .com/.co.uk: No active site found.
+    CONFLICT CHECK: Appears clear.
+
+20. AgentSelect
+    .net: TAKEN - but it's a Valorant gaming site, not property.
+    .com.au: TAKEN - AgentSelect.com.au is an Australian property referral service.
+    .com/.co.uk: Not confirmed as active property sites.
+    CONFLICT CHECK: Name used in other markets/sectors.
+
+21. SelectAgent
+    .com/.co.uk: No active UK property site found.
+    CONFLICT CHECK: Appears clear but generic.
+
+22. SellSmart
+    .one: TAKEN - SellSmart.one exists (US-focused property syndication).
+    .com: SellSmartRealtor.com exists (US).
+    .co.uk: No active UK site found under exact name, but "Smart Seller" (smart-seller.co.uk) exists.
+    CONFLICT CHECK: Name used in US property market. "SmartSell" estate agents listed on MoveAgain.co.uk.
+
+23. SmartSell
+    .co.uk: SmartSell Estate Agents listed on MoveAgain.co.uk.
+    CONFLICT CHECK: UK estate agent already uses this name.
+
+24. SellWise
+    .com/.co.uk: SELLWISE LTD registered at Companies House (#14931412). "Property Sellwise" is a US franchise.
+    CONFLICT CHECK: UK company registration exists. US franchise uses similar name.
+
+25. WiseSell
+    .com/.co.uk: No active property site found.
+    CONFLICT CHECK: Appears clear but close to SellWise (registered).
+
+26. PropChoice
+    .com: TAKEN - PropChoice.com exists as an India-focused property comparison portal.
+    CONFLICT CHECK: TAKEN internationally.
+
+27. ChoiceAgent
+    .com/.co.uk: No active site found.
+    CONFLICT CHECK: Appears clear.
+
+================================================================================
+SECTION 3: CANDIDATE NAME LIST - ACTION-ORIENTED NAMES
+================================================================================
+(Verb-led names: find, compare, choose, pick, switch, check, go)
+
+28. FindMyAgent
+    .net: FindMyAgent.net exists as a website.
+    .com/.co.uk: Likely parked or taken given .net is active.
+    CONFLICT CHECK: LIKELY TAKEN. Also very close to MyAgentFinder.com (US service).
+
+29. MyAgentFinder
+    .com: TAKEN - MyAgentFinder.com is an active US agent matching service (4.8/5 rating, 1,089 reviews).
+    CONFLICT CHECK: TAKEN.
+
+30. GoAgent
+    .com/.co.uk: Not specifically searched but follows GoCompare pattern.
+    CONFLICT CHECK: Needs verification. Risks confusion with Go programming language tools.
+
+31. SwitchAgent
+    .com/.co.uk: Not found in searches.
+    CONFLICT CHECK: Follows uSwitch naming pattern. Appears clear but implies switching, not first-time finding.
+
+32. CheckAgent / CheckMyAgent
+    .com/.co.uk: Not found in searches.
+    CONFLICT CHECK: Follows Checkatrade pattern. Appears clear.
+
+33. TrySell / TryAgent
+    .com/.co.uk: Not found in searches.
+    CONFLICT CHECK: Appears clear.
+
+34. GrabAgent
+    .com/.co.uk: Not found in searches.
+    CONFLICT CHECK: Appears clear.
+
+35. SpotAgent / AgentSpot
+    .com/.co.uk: Not found in searches.
+    CONFLICT CHECK: Appears clear. "Spot" implies finding/locating.
+
+================================================================================
+SECTION 4: CANDIDATE NAME LIST - ABSTRACT / BRANDABLE NAMES
+================================================================================
+(Invented or non-literal names, like Zoopla, Yopa, Emoov)
+
+36. Kova (current working name)
+    .com/.co.uk: Status unknown from searches - no UK property company found under this name.
+    NOTES: Short, punchy, abstract. No obvious property connotation.
+    CONFLICT CHECK: No property competitor found but name origin/meaning unclear.
+
+37. Agora
+    .com/.co.uk: MRI Software uses "Agora" as their AI platform name.
+    CONFLICT CHECK: Used in proptech AI space. Greek for "marketplace" - good meaning but potentially contested.
+
+38. Vendo
+    .com/.co.uk: Not searched specifically.
+    NOTES: Latin/Italian for "I sell". Short, memorable, brandable.
+    CONFLICT CHECK: Needs verification.
+
+39. Propli
+    .com/.co.uk: Not found in searches.
+    NOTES: Portmanteau of "property" + suffix. Modern, tech-sounding.
+    CONFLICT CHECK: Needs verification.
+
+40. Sellr / Sello
+    .com/.co.uk: Not specifically found.
+    NOTES: Follows tech naming convention (dropping vowels / adding 'o').
+    CONFLICT CHECK: Needs verification.
+
+41. Novus
+    .com/.co.uk: Not searched specifically.
+    NOTES: Latin for "new". Brandable, premium feel.
+    CONFLICT CHECK: Likely taken in many sectors.
+
+42. Movva / Moova
+    .com/.co.uk: Not searched. Emoov.co.uk exists as an online estate agent.
+    NOTES: Evokes "move/mover". Could be confused with Emoov.
+    CONFLICT CHECK: Risk of confusion with Emoov.
+
+43. Zellar / Zella
+    .com/.co.uk: Not found.
+    NOTES: Plays on "seller" with Z-branding (like Zoopla, Zillow).
+    CONFLICT CHECK: Needs verification.
+
+44. Relo
+    .com/.co.uk: Not found.
+    NOTES: Short for "relocate". Clean, modern.
+    CONFLICT CHECK: Needs verification.
+
+45. Quova
+    .com/.co.uk: Not found.
+    NOTES: Similar sound to Kova. Latin feel ("quo" = where).
+    CONFLICT CHECK: Needs verification.
+
+================================================================================
+SECTION 5: CANDIDATE NAME LIST - COMPOUND / PORTMANTEAU NAMES
+================================================================================
+
+46. Homefinder (HomeFinder)
+    .com/.co.uk: Very likely taken - extremely common term.
+    CONFLICT CHECK: HIGH RISK - generic term used widely.
+
+47. Sellified
+    .com/.co.uk: Not found.
+    NOTES: "Sell" + "-ified" suffix. Modern, implies transformation.
+    CONFLICT CHECK: Appears clear.
+
+48. Agentify
+    .com/.co.uk: Not found in property searches.
+    NOTES: "Agent" + "-ify" suffix. Action-oriented, tech feel.
+    CONFLICT CHECK: Needs verification.
+
+49. Propvault
+    .com/.co.uk: Not found.
+    NOTES: "Property" + "vault". Implies security and value.
+    CONFLICT CHECK: Needs verification.
+
+50. Homestack
+    .com/.co.uk: Not found in UK searches.
+    NOTES: "Home" + "stack". Tech-adjacent naming.
+    CONFLICT CHECK: Needs verification.
+
+51. Sellhub
+    .com/.co.uk: Not found in searches.
+    NOTES: "Sell" + "hub". Implies central marketplace.
+    CONFLICT CHECK: Needs verification.
+
+52. Houseful
+    .com/.co.uk: Houseful is the parent company of Zoopla (formerly ZPG).
+    CONFLICT CHECK: TAKEN - major property group.
+
+53. AgentLens
+    .com/.co.uk: Not found.
+    NOTES: "Agent" + "lens". Implies scrutiny, transparency, insight.
+    CONFLICT CHECK: Appears clear.
+
+54. PropMatch
+    .com/.co.uk: Not found.
+    NOTES: "Property" + "match". Clear meaning.
+    CONFLICT CHECK: Needs verification. AgentMatch is taken but PropMatch may be clear.
+
+55. SaleScope
+    .com/.co.uk: Not found.
+    NOTES: "Sale" + "scope". Implies overview, analysis.
+    CONFLICT CHECK: Needs verification.
+
+================================================================================
+SECTION 6: CANDIDATE NAME LIST - AI-FOCUSED NAMES
+================================================================================
+
+56. AgentAI
+    .com: Not specifically found for UK property.
+    .ai: AgentMatch.ai exists but AgentAI may be separate.
+    NOTES: Direct, positions as AI-powered. "Homes AI" is a new 2026 player in this space.
+    CONFLICT CHECK: Needs verification. Very generic AI name - likely contested.
+
+57. PropTech.AI
+    .ai: TAKEN - PropTech.AI is an active next-generation property management platform.
+    CONFLICT CHECK: TAKEN.
+
+58. SellAI / AISell
+    .com/.co.uk: Not found.
+    NOTES: Directly combines selling with AI positioning.
+    CONFLICT CHECK: Needs verification.
+
+59. SmartAgent (SmartAgentAI)
+    .co.uk: SmartEstateAgent.co.uk exists (Smart Property Group).
+    CONFLICT CHECK: "Smart Estate Agent" brand exists in UK.
+
+60. AgentIQ
+    .com/.co.uk: Not found in property searches.
+    NOTES: "Agent" + "IQ". Implies intelligence, smart matching.
+    CONFLICT CHECK: Needs verification. "IQ" suffix popular across many sectors.
+
+61. KovaAI
+    .com/.co.uk: Not found.
+    NOTES: Extends current working name with AI positioning.
+    CONFLICT CHECK: Depends on Kova availability.
+
+62. NeuraHome / NeuralAgent
+    .com/.co.uk: Not found.
+    NOTES: "Neural" prefix implies AI/deep learning. Premium tech feel.
+    CONFLICT CHECK: Needs verification.
+
+63. Cleva / ClevAgent
+    .com/.co.uk: Not found.
+    NOTES: Play on "clever". ListWithClever.com exists in US (agent comparison).
+    CONFLICT CHECK: Clever.com exists in US real estate. Risk of association.
+
+64. Mensa (as in smart/intelligent)
+    CONFLICT CHECK: Likely heavily trademarked by Mensa International.
+
+65. Insighta / AgentInsight
+    .com/.co.uk: Not found.
+    NOTES: Implies data-driven intelligence.
+    CONFLICT CHECK: Needs verification.
+
+================================================================================
+SECTION 7: ADDITIONAL GENERATED CANDIDATES
+================================================================================
+
+66. AgentEdge
+    .com/.co.uk: Not found. Implies competitive advantage.
+
+67. SellSure
+    .com/.co.uk: Not found. Implies confidence in selling.
+
+68. AgentVault
+    .com/.co.uk: Not found. Implies trusted repository of agents.
+
+69. MoveRight
+    .com/.co.uk: Not found. Action-oriented, positive connotation.
+    NOTE: Could be confused with Rightmove (reversed).
+
+70. Vendora
+    .com/.co.uk: Not found. Latin-inspired, feminine ending like Zoopla.
+
+71. Agently
+    .com/.co.uk: Not found. Modern "-ly" suffix convention.
+
+72. PropPilot
+    .com/.co.uk: Not found. Implies guidance through the process.
+
+73. AgentRadar
+    .com/.co.uk: Not found. Implies scanning/finding best agents.
+
+74. SellSignal
+    .com/.co.uk: Not found. Implies data-driven selling cues.
+
+75. HomeHawk
+    .com/.co.uk: Not found. Implies sharp-eyed property oversight.
+
+================================================================================
+SECTION 8: SUMMARY TABLE - AVAILABILITY RISK ASSESSMENT
+================================================================================
+
+CONFIRMED TAKEN / HIGH CONFLICT RISK:
+- BestAgent (.co.uk taken - active platform)
+- CompareAgents (.uk taken - active comparison site)
+- AgentMatch (.com, .ai, .us, .realestate all taken)
+- MyAgentFinder (.com taken - active US service)
+- RankMyAgent (.com taken - major Canadian platform)
+- PropChoice (.com taken - India property portal)
+- SellMax (UK Companies House registration)
+- MaxSell (UK Companies House registration)
+- SellWise (UK Companies House registration)
+- SmartSell (UK estate agent using name)
+- Houseful (parent company of Zoopla)
+- PropTech.AI (active platform)
+- SoldRight (.ie taken - Irish comparison site)
+- SellRight (Welsh estate agent using name)
+
+LIKELY CLEAR / LOWER RISK (based on searches - REQUIRES FORMAL DOMAIN CHECK):
+- AgentPick / PickMyAgent
+- HomeAgent / AgentHome
+- TopAgent
+- HomeSold
+- AgentScore / ScoreMyAgent
+- AgentRank (but close to RankMyAgent)
+- ChoiceAgent
+- SwitchAgent
+- CheckAgent
+- AgentSpot / SpotAgent
+- Sellified / Agentify
+- AgentLens
+- PropMatch
+- SaleScope
+- AgentEdge
+- SellSure
+- AgentVault
+- Vendora
+- Agently
+- PropPilot
+- AgentRadar
+- HomeHawk
+- WiseSell
+
+ABSTRACT NAMES NEEDING FORMAL VERIFICATION:
+- Kova, Propli, Zellar, Relo, Quova, Vendo, Novus, Vendora
+
+================================================================================
+NOTES FOR NAMING COMMITTEE
+================================================================================
+
+1. The "agent comparison" space in the UK is EXTREMELY crowded. There are 10+ active
+   comparison sites already using variations of "compare" + "agent". Avoid this pattern.
+
+2. GetAgent.co.uk is the dominant brand in the exact space Kova targets. Any name
+   containing "agent" + action verb risks confusion.
+
+3. The most defensible names are likely ABSTRACT/INVENTED (like Zoopla, Yopa) or
+   use UNEXPECTED COMBINATIONS (like Checkatrade, MoneySupermarket).
+
+4. AI-focused names are trending in 2026 proptech ("Homes AI", "Agentic PropTech")
+   but risk dating quickly if AI hype fades.
+
+5. UK consumers strongly trust .co.uk domains. Securing both .com and .co.uk is ideal.
+
+6. The successful UK comparison brands (GoCompare, CompareTheMarket, Confused.com,
+   MoneySupermarket) all share these traits:
+   - Immediately understandable purpose
+   - Memorable and slightly playful
+   - Work well in advertising/word-of-mouth
+   - Most are compound words that didn't exist before the brand
+
+7. ALL candidates above require formal domain availability checks via a registrar
+   and UK trademark searches via the IPO before shortlisting. Web search alone
+   cannot confirm true availability.
+
+================================================================================
+SOURCES
+================================================================================
+- https://estateagentwebsitedesignpro.co.uk/how-to-pick-the-best-domain-name-for-your-estate-agency-website
+- https://www.getagent.co.uk/
+- https://bestagent.co.uk/
+- https://compareagents.uk/
+- https://www.choosemyagent.co.uk/
+- https://sellmyhome.co.uk/
+- https://www.myagentfinder.com/
+- https://onlineagentpicker.com/
+- https://compare-agents.com/
+- https://jerichowriters.com/our-services/agentmatch/
+- https://www.agentmatch.realestate/
+- https://agentmatch.ai/
+- https://rankmyagent.com/
+- https://agentselect.net/
+- https://www.agentselect.com.au/
+- https://soldright.ie/
+- https://let-right.co.uk/
+- https://www.propchoice.com/
+- https://proptech.ai/
+- https://find-and-update.company-information.service.gov.uk/company/14931412 (Sellwise Ltd)
+- https://find-and-update.company-information.service.gov.uk/company/07440152 (Sellmax Ltd)
+- https://find-and-update.company-information.service.gov.uk/company/10778604 (Maxsell Ltd)
+- https://sellsmart.one/
+- https://smart-seller.co.uk/
+- https://www.name.com/blog/best-practices-for-picking-the-perfect-brand-name
+- https://en.wikipedia.org/wiki/MoneySuperMarket
+- https://en.wikipedia.org/wiki/Checkatrade
