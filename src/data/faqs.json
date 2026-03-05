@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "question": "Is Kova really free for homeowners?",
+    "answer": "Yes, completely free. We never charge homeowners anything. When you choose an agent through our platform and your property sells, the agent pays us a small referral fee. This means our incentives are aligned with yours - we only succeed when you have a successful sale."
+  },
+  {
+    "id": "2",
+    "question": "How do you rank and compare agents?",
+    "answer": "We use real performance data from HM Land Registry records, not self-reported figures. We analyse each agent's actual sales history, average time from listing to completion, the percentage of asking price achieved, and verified homeowner reviews. Rankings are never influenced by payments from agents."
+  },
+  {
+    "id": "3",
+    "question": "Do I have to use one of the agents you recommend?",
+    "answer": "Absolutely not. There's no obligation whatsoever. You can compare agents, request free valuations, and walk away at any point. We believe in empowering you with information so you can make the best choice - whatever that looks like for you."
+  },
+  {
+    "id": "4",
+    "question": "How many agents will contact me?",
+    "answer": "Only the agents you choose to hear from. We will never share your details without your explicit consent. You select which agents you'd like to request a free valuation from, and only those agents will be given your contact information."
+  },
+  {
+    "id": "5",
+    "question": "How is this different from just searching Google for local agents?",
+    "answer": "We give you side-by-side comparison data that would take hours to research yourself: actual sales records from Land Registry, verified average time to sell, fee structures, and authenticated homeowner reviews. Plus, our agents know they're being compared, which means they bring their best offer to win your business."
+  },
+  {
+    "id": "6",
+    "question": "What information do I need to get started?",
+    "answer": "Just your postcode to begin. We'll ask a few optional questions about your property type, number of bedrooms, and when you're looking to sell to help us match you with the most relevant agents. The whole process takes under 60 seconds."
+  },
+  {
+    "id": "7",
+    "question": "Are all agents on your platform vetted?",
+    "answer": "Yes. Every agent on Kova is verified before they appear in our results. We check their business registration, professional memberships (such as Propertymark and RICS), client money protection insurance, and complaint history. We also continuously monitor their performance data and reviews."
+  },
+  {
+    "id": "8",
+    "question": "Can I use Kova if I'm buying, not selling?",
+    "answer": "Kova is currently designed for homeowners looking to sell their property. However, many of our partner agents also help buyers, and we're working on expanding our service to include buyer matching in the future."
+  }
+]

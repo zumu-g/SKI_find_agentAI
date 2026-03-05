@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "quote": "Kova saved us from making a costly mistake. We were about to go with the first agent who knocked on our door, but comparing their track record with others in our area showed they had one of the slowest sale times. The agent we chose through Kova sold our home in just 3 weeks.",
+    "author": "Sarah & Mark Thompson",
+    "location": "Guildford, Surrey",
+    "rating": 5,
+    "outcome": "Sold in 3 weeks, 2% over asking price"
+  },
+  {
+    "id": "2",
+    "quote": "As a first-time seller, I had no idea what to look for in an estate agent. The comparison data made it so clear who was actually performing well in my area versus who just had the biggest sign. Brilliant service.",
+    "author": "Priya Sharma",
+    "location": "Manchester",
+    "rating": 5,
+    "outcome": "Sold for full asking price"
+  },
+  {
+    "id": "3",
+    "quote": "I was quoted fees ranging from 0.8% to 1.8% by different agents. Kova helped me see that the cheapest wasn't the best value and the most expensive wasn't the best performer. I found the perfect balance.",
+    "author": "David Richardson",
+    "location": "Bristol",
+    "rating": 5,
+    "outcome": "Saved over 3,000 in fees"
+  },
+  {
+    "id": "4",
+    "quote": "We'd lived in our home for 25 years and the thought of selling was overwhelming. Kova took the stress out of choosing an agent. The whole process was transparent and pressure-free. I wish this existed years ago.",
+    "author": "Margaret & John Wilson",
+    "location": "Edinburgh",
+    "rating": 5,
+    "outcome": "Sold within asking price range"
+  },
+  {
+    "id": "5",
+    "quote": "The verified reviews were what sold me. I could see exactly what other sellers in my road experienced with each agent. No other service gave me that level of local insight.",
+    "author": "Tom Adeyemi",
+    "location": "Birmingham",
+    "rating": 4,
+    "outcome": "Listed and sold in 6 weeks"
+  },
+  {
+    "id": "6",
+    "quote": "I compared 4 agents through Kova and was surprised how different their approaches were. The data on asking price achieved was eye-opening. Ended up selling for 15,000 more than my original agent suggested.",
+    "author": "Claire Henderson",
+    "location": "Leeds",
+    "rating": 5,
+    "outcome": "Achieved 15,000 over initial valuation"
+  }
+]
