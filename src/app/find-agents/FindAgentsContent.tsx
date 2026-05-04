@@ -133,9 +133,11 @@ export function FindAgentsContent() {
                 Agents near {areaName}
               </h1>
               <p className="text-text-secondary font-normal mt-1">
-                {results.length > 0
-                  ? `${results.length} agents found in your area`
-                  : 'Searching for agents...'}
+                {!hasSearched
+                  ? 'Searching for agents...'
+                  : results.length > 0
+                  ? `${results.length} agent${results.length !== 1 ? 's' : ''} found in your area`
+                  : 'No agents found for this postcode yet'}
               </p>
             </div>
             <PostcodeSearch size="default" className="max-w-xs" />

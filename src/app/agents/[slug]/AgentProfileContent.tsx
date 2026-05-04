@@ -1,12 +1,14 @@
 'use client';
 
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { MapPin, Phone, Mail, Globe, ShieldCheck, Clock, TrendingUp, Home, Calendar, Star, CheckCircle, ArrowLeft } from 'lucide-react';
+import { MapPin, Phone, Mail, Globe, ShieldCheck, Clock, TrendingUp, Home, Calendar, Star, CheckCircle, ArrowLeft, PenLine } from 'lucide-react';
 import Link from 'next/link';
 import { StarRating } from '@/components/ui/StarRating';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
+import { ReviewForm } from '@/components/ui/ReviewForm';
 import { AnimatedSection } from '@/components/shared/AnimatedSection';
 import { formatPercentage, pluralize } from '@/lib/utils';
 import type { Agent } from '@/types/agent';
@@ -47,6 +49,8 @@ function ReviewCard({ review }: { review: Review }) {
 }
 
 export function AgentProfileContent({ agent, reviews }: { agent: Agent; reviews: Review[] }) {
+  const [showReviewForm, setShowReviewForm] = useState(false);
+
   const specialismLabels: Record<string, string> = {
     'residential-sales': 'Residential Sales',
     'residential-lettings': 'Lettings',
@@ -149,9 +153,25 @@ export function AgentProfileContent({ agent, reviews }: { agent: Agent; reviews:
             {/* Reviews */}
             <AnimatedSection delay={0.2}>
               <div className="bg-white rounded-2xl shadow-card p-8">
-                <h2 className="text-2xl font-bold text-text mb-6">
-                  Reviews ({reviews.length})
-                </h2>
+                <div className="flex items-center justify-between mb-6">
+                  <h2 className="text-2xl font-bold text-text">
+                    Reviews ({reviews.length})
+                  </h2>
+                  <button
+                    onClick={() => setShowReviewForm((v) => !v)}
+                    className="flex items-center gap-2 text-sm font-semibold text-terra hover:text-terra-dark transition-colors"
+                  >
+                    <PenLine size={16} />
+                    {showReviewForm ? 'Cancel' : 'Write a review'}
+                  </button>
+                </div>
+
+                {showReviewForm && (
+                  <div className="mb-8 p-6 bg-surface rounded-xl border border-border">
+                    <ReviewForm agentId={agent.id} agentName={agent.name} />
+                  </div>
+                )}
+
                 {reviews.length > 0 ? (
                   <div className="space-y-4">
                     {reviews.map((review) => (
@@ -159,7 +179,17 @@ export function AgentProfileContent({ agent, reviews }: { agent: Agent; reviews:
                     ))}
                   </div>
                 ) : (
-                  <p className="text-text-secondary text-center py-8">No reviews yet for this agent.</p>
+                  <div className="text-center py-8">
+                    <p className="text-text-secondary mb-4">No reviews yet for this agent.</p>
+                    {!showReviewForm && (
+                      <button
+                        onClick={() => setShowReviewForm(true)}
+                        className="text-sm font-semibold text-terra hover:text-terra-dark transition-colors"
+                      >
+                        Be the first to leave a review →
+                      </button>
+                    )}
+                  </div>
                 )}
               </div>
             </AnimatedSection>
@@ -204,9 +234,14 @@ export function AgentProfileContent({ agent, reviews }: { agent: Agent; reviews:
               <div className="bg-white rounded-2xl shadow-card p-6">
                 <h3 className="text-lg font-bold text-text mb-4">Coverage Areas</h3>
                 <div className="flex flex-wrap gap-2">
-                  {agent.coverageAreas.map((area) => (
+                  {agent.coverageAreas.slice(0, 12).map((area) => (
                     <Badge key={area} variant="outline">{area}</Badge>
                   ))}
+                  {agent.coverageAreas.length > 12 && (
+                    <Badge variant="outline" className="text-text-tertiary">
+                      +{agent.coverageAreas.length - 12} more
+                    </Badge>
+                  )}
                 </div>
               </div>
             </AnimatedSection>

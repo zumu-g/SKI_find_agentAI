@@ -1,57 +1,60 @@
 'use client';
 
-import { ArrowRight } from 'lucide-react';
-import { Button } from '@/components/ui/Button';
-import { AnimatedSection } from '@/components/shared/AnimatedSection';
+import Link from 'next/link';
+import { motion, useInView } from 'framer-motion';
+import { useRef } from 'react';
 
 export function CTABanner({ variant = 'seller' }: { variant?: 'seller' | 'agent' }) {
-  const isSeller = variant === 'seller';
+  const isAgent = variant === 'agent';
+  const ref = useRef(null);
+  const inView = useInView(ref, { once: true, margin: '-80px' });
 
   return (
-    <section className="py-32 lg:py-40 relative overflow-hidden bg-sage">
-      {/* Decorative organic shapes */}
-      <svg className="absolute inset-0 w-full h-full" viewBox="0 0 1440 600" fill="none" preserveAspectRatio="none">
-        <circle cx="200" cy="100" r="200" fill="#1B4332" opacity="0.3" />
-        <circle cx="1300" cy="500" r="250" fill="#52B788" opacity="0.15" />
-        <circle cx="800" cy="50" r="120" fill="#1B4332" opacity="0.2" />
-        <ellipse cx="1100" cy="200" rx="80" ry="60" fill="#52B788" opacity="0.1" />
-        <circle cx="100" cy="450" r="100" fill="#52B788" opacity="0.1" />
-        {/* Leaf-like shapes */}
-        <path d="M600 500 Q650 400 700 500 Q650 480 600 500Z" fill="#1B4332" opacity="0.15" />
-        <path d="M1200 100 Q1250 50 1280 120 Q1240 90 1200 100Z" fill="#52B788" opacity="0.1" />
-      </svg>
+    <section className="bg-[#f5f5f5] py-24 lg:py-32">
+      <motion.div
+        ref={ref}
+        initial={{ opacity: 0, y: 24 }}
+        animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 24 }}
+        transition={{ duration: 0.5, ease: [0.21, 0.47, 0.32, 0.98] }}
+        className="max-w-2xl mx-auto px-6 text-center"
+      >
+        <span className="text-[11px] font-semibold text-[#C65D3E] uppercase tracking-[0.1em]">
+          GET STARTED
+        </span>
 
-      <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <AnimatedSection>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-8 tracking-tight">
-            {isSeller
-              ? 'Ready to find the right agent?'
-              : 'Grow your business with Kova'}
-          </h2>
-          <p className="text-lg text-white/70 max-w-2xl mx-auto mb-12 font-normal">
-            {isSeller
-              ? 'Join 45,000+ homeowners who found their perfect agent through Kova. Compare local agents for free in under 60 seconds.'
-              : 'Connect with motivated homeowners in your area. Only pay when you succeed. Join 2,500+ agents already on the platform.'}
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button
-              href={isSeller ? '/find-agents' : '/for-agents'}
-              size="lg"
-              variant="primary"
-            >
-              {isSeller ? 'Compare Agents Now' : 'Join as an Agent'} <ArrowRight size={18} />
-            </Button>
-            <Button
-              href={isSeller ? '/how-it-works' : '/about'}
-              size="lg"
-              variant="ghost"
-              className="text-white/80 hover:text-white hover:bg-white/10"
-            >
-              {isSeller ? 'Learn How It Works' : 'Learn More'}
-            </Button>
-          </div>
-        </AnimatedSection>
-      </div>
+        <h2 className="mt-3 text-[clamp(2rem,4vw,3rem)] font-black text-[#0a0a0a] tracking-tight leading-[1.05]">
+          {isAgent
+            ? <>Grow your business<br className="hidden sm:block" /> with Kova</>
+            : <>Ready to find your<br className="hidden sm:block" /> perfect agent?</>}
+        </h2>
+
+        <p className="mt-4 text-[17px] text-[#525252] leading-relaxed">
+          {isAgent
+            ? 'Connect with motivated homeowners in your area. Only pay when you succeed.'
+            : "Join 45,000+ Australians who've sold smarter with Kova. Free, fast, no obligation."}
+        </p>
+
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+          <Link
+            href={isAgent ? '/for-agents' : '/find-agents'}
+            className="inline-flex items-center justify-center rounded-full bg-[#C65D3E] text-white font-bold px-8 py-3.5 text-[16px] hover:bg-[#b04f33] transition-colors duration-200"
+          >
+            {isAgent ? 'Join as an Agent' : 'Find My Agent'}
+          </Link>
+          <Link
+            href={isAgent ? '/about' : '/how-it-works'}
+            className="inline-flex items-center justify-center rounded-full border border-[#e5e5e5] bg-white text-[#0a0a0a] font-semibold px-8 py-3.5 text-[16px] hover:border-[#c0c0c0] transition-colors duration-200"
+          >
+            {isAgent ? 'Learn More' : 'How It Works'}
+          </Link>
+        </div>
+
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-6 text-[12px] font-semibold text-[#8a8a8a] uppercase tracking-wide">
+          <span>✓ Free for homeowners</span>
+          <span>✓ No cold calls</span>
+          <span>✓ Licensed agents</span>
+        </div>
+      </motion.div>
     </section>
   );
 }

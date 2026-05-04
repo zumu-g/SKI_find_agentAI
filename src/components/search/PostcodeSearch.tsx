@@ -21,7 +21,7 @@ export function PostcodeSearch({ size = 'large', className }: {
       return;
     }
     if (!validatePostcode(postcode)) {
-      setError('Please enter a valid UK postcode');
+      setError('Please enter a valid 4-digit postcode');
       return;
     }
     setError('');
@@ -41,7 +41,7 @@ export function PostcodeSearch({ size = 'large', className }: {
         </div>
         <input
           type="text"
-          placeholder="Enter your postcode"
+          placeholder="Enter your postcode e.g. 2000"
           value={postcode}
           onChange={(e) => { setPostcode(e.target.value); setError(''); }}
           className={cn(

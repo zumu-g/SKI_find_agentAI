@@ -21,11 +21,9 @@ export function getFeaturedAgents(limit = 3): Agent[] {
     .slice(0, limit);
 }
 
-export function getAgentsByArea(postcodePrefix: string): Agent[] {
-  const prefix = postcodePrefix.toUpperCase().replace(/\s/g, '');
-  return agents.filter((a) =>
-    a.coverageAreas.some((area) => prefix.startsWith(area) || area.startsWith(prefix))
-  );
+export function getAgentsByArea(postcode: string): Agent[] {
+  const clean = postcode.trim().replace(/\s/g, '');
+  return agents.filter((a) => a.coverageAreas.includes(clean));
 }
 
 export function getReviewsForAgent(agentId: string): Review[] {
@@ -59,12 +57,10 @@ export function searchAgents(
 }
 
 export function getPostcodePrefix(postcode: string): string {
-  const clean = postcode.toUpperCase().replace(/\s/g, '');
-  const match = clean.match(/^([A-Z]{1,2}\d{1,2})/);
-  return match ? match[1] : clean;
+  return postcode.trim().replace(/\s/g, '');
 }
 
 export function validatePostcode(postcode: string): boolean {
-  const regex = /^[A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2}$/i;
+  const regex = /^\d{4}$/;
   return regex.test(postcode.trim());
 }

@@ -2,70 +2,66 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, MapPin, ShieldCheck } from 'lucide-react';
+import { MapPin, ShieldCheck } from 'lucide-react';
 import { StarRating } from '@/components/ui/StarRating';
-import { Badge } from '@/components/ui/Badge';
-import { Button } from '@/components/ui/Button';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/shared/AnimatedSection';
 import { getFeaturedAgents } from '@/lib/agents';
 import type { Agent } from '@/types/agent';
 
 function AgentCard({ agent }: { agent: Agent }) {
   return (
-    <Link href={`/agents/${agent.slug}`} className="group block">
-      <div className="bg-white rounded-2xl shadow-card hover:shadow-card-hover transition-all duration-300 overflow-hidden border border-transparent hover:border-sage/20">
-        <div className="relative h-1.5 bg-gradient-to-r from-sage via-sage-light to-terra" />
+    <Link href={`/agents/${agent.slug}`} className="group block h-full">
+      <div className="bg-surface rounded-[16px] overflow-hidden hover:bg-surface-hover transition-colors duration-200 h-full flex flex-col">
+        <div className="relative w-full h-48 overflow-hidden">
+          <Image
+            src={agent.profileImage}
+            alt={agent.name}
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          />
+        </div>
 
-        <div className="p-6 lg:p-8">
-          <div className="flex items-start gap-4 mb-5">
-            <div className="w-16 h-16 rounded-xl overflow-hidden shrink-0 relative">
-              <Image
-                src={agent.profileImage}
-                alt={agent.name}
-                fill
-                className="object-cover"
-                sizes="64px"
-              />
-            </div>
-            <div className="flex-1 min-w-0">
-              <div className="flex items-center gap-2">
-                <h3 className="font-bold text-text text-lg truncate">{agent.name}</h3>
-                {agent.verified && <ShieldCheck size={16} className="text-sage shrink-0" />}
-              </div>
-              <p className="text-sm text-text-secondary">{agent.agency}</p>
-              <StarRating rating={agent.stats.averageRating} size={14} showValue className="mt-1" />
-            </div>
+        <div className="p-5 flex flex-col flex-1">
+          <div className="flex items-center gap-1.5">
+            <span className="text-[15px] font-bold text-ink leading-tight">{agent.name}</span>
+            {agent.verified && (
+              <ShieldCheck size={14} className="text-sage shrink-0" />
+            )}
             {agent.tier !== 'standard' && (
-              <Badge variant="premium" className="shrink-0">
+              <span className="ml-auto bg-terra text-white text-[10px] font-semibold rounded-full px-2 py-0.5">
                 {agent.tier === 'premium' ? 'Premium' : 'Featured'}
-              </Badge>
+              </span>
             )}
           </div>
 
-          <p className="text-sm text-text-secondary leading-relaxed mb-5 line-clamp-2">{agent.shortBio}</p>
+          <p className="text-[12px] text-ink-tertiary mt-0.5">{agent.agency}</p>
+          <StarRating rating={agent.stats.averageRating} size={12} className="mt-2" />
 
-          <div className="grid grid-cols-3 gap-3 mb-5">
-            <div className="text-center p-3 bg-sage-50 rounded-xl">
-              <div className="text-lg font-semibold text-text">{agent.stats.propertiesSold}</div>
-              <div className="text-xs text-text-tertiary">Properties Sold</div>
-            </div>
-            <div className="text-center p-3 bg-sage-50 rounded-xl">
-              <div className="text-lg font-semibold text-text">{agent.stats.averageSaleTime}d</div>
-              <div className="text-xs text-text-tertiary">Avg. Sale Time</div>
-            </div>
-            <div className="text-center p-3 bg-sage-50 rounded-xl">
-              <div className="text-lg font-semibold text-text">{agent.stats.askingPriceAchieved}%</div>
-              <div className="text-xs text-text-tertiary">Price Achieved</div>
+          <div className="border-t border-border mt-4 pt-4">
+            <div className="grid grid-cols-3 gap-2">
+              <div className="text-center">
+                <div className="text-[18px] font-black text-ink">{agent.stats.propertiesSold}</div>
+                <div className="text-[10px] font-semibold text-ink-tertiary uppercase tracking-wide mt-0.5">SOLD</div>
+              </div>
+              <div className="text-center">
+                <div className="text-[18px] font-black text-ink">{agent.stats.averageSaleTime}d</div>
+                <div className="text-[10px] font-semibold text-ink-tertiary uppercase tracking-wide mt-0.5">AVG. DAYS</div>
+              </div>
+              <div className="text-center">
+                <div className="text-[18px] font-black text-ink">{agent.stats.askingPriceAchieved}%</div>
+                <div className="text-[10px] font-semibold text-ink-tertiary uppercase tracking-wide mt-0.5">PRICE</div>
+              </div>
             </div>
           </div>
 
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-1.5 text-sm text-text-secondary">
-              <MapPin size={14} />
+          <div className="flex items-center justify-between mt-4">
+            <div className="flex items-center gap-1 text-[12px] text-ink-tertiary">
+              <MapPin size={12} className="shrink-0" />
               <span>{agent.address.city}</span>
             </div>
-            <span className="text-sm font-medium text-terra group-hover:text-terra-dark flex items-center gap-1 transition-colors">
-              View Profile <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
+            <span className="text-[13px] font-semibold text-terra group-hover:text-terra-dark transition-colors duration-200">
+              View Profile →
             </span>
           </div>
         </div>
@@ -78,19 +74,28 @@ export function FeaturedAgents() {
   const agents = getFeaturedAgents(3);
 
   return (
-    <section className="py-32 lg:py-40 bg-surface">
+    <section className="bg-white py-24 lg:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <AnimatedSection className="text-center mb-20">
-          <span className="text-sm font-semibold text-sage uppercase tracking-wider">Top Agents</span>
-          <h2 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-bold text-text tracking-tight">
-            Meet our highest-rated agents
-          </h2>
-          <p className="mt-6 text-lg text-text-secondary font-normal max-w-2xl mx-auto">
-            These agents consistently deliver outstanding results for homeowners across the UK.
-          </p>
+        <AnimatedSection className="mb-10">
+          <div className="flex items-end justify-between gap-6">
+            <div>
+              <span className="text-[11px] font-semibold text-terra uppercase tracking-[0.1em]">
+                FEATURED AGENTS
+              </span>
+              <h2 className="mt-3 text-[clamp(1.75rem,3vw,2.5rem)] font-black text-ink tracking-tight">
+                Top performers near you
+              </h2>
+            </div>
+            <Link
+              href="/find-agents"
+              className="hidden md:block text-[14px] font-semibold text-terra hover:text-terra-dark transition-colors duration-200 shrink-0"
+            >
+              View all agents →
+            </Link>
+          </div>
         </AnimatedSection>
 
-        <StaggerContainer className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
+        <StaggerContainer className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {agents.map((agent) => (
             <StaggerItem key={agent.id}>
               <AgentCard agent={agent} />
@@ -98,10 +103,13 @@ export function FeaturedAgents() {
           ))}
         </StaggerContainer>
 
-        <AnimatedSection delay={0.4} className="text-center mt-16">
-          <Button href="/find-agents" variant="secondary" size="lg">
-            View All Agents <ArrowRight size={18} />
-          </Button>
+        <AnimatedSection delay={0.3} className="mt-8 flex md:hidden justify-center">
+          <Link
+            href="/find-agents"
+            className="text-[14px] font-semibold text-terra hover:text-terra-dark transition-colors duration-200"
+          >
+            View all agents →
+          </Link>
         </AnimatedSection>
       </div>
     </section>

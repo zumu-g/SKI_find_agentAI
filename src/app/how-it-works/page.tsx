@@ -19,7 +19,7 @@ const steps = [
     description: 'Tell us where your property is. We use your postcode to identify the top-performing estate agents operating in your specific area.',
     details: [
       'Takes less than 10 seconds',
-      'Covers all UK postcodes',
+      'Covers all Australian postcodes',
       'Instant results, no waiting',
     ],
     image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80',
@@ -28,9 +28,9 @@ const steps = [
     number: '02',
     icon: BarChart3,
     title: 'Compare agents side by side',
-    description: 'See a personalised shortlist of local agents ranked by real performance data from HM Land Registry -- not self-reported figures or paid placements.',
+    description: 'See a personalised shortlist of local agents ranked by real performance data from PEXA and state title registries -- not self-reported figures or paid placements.',
     details: [
-      'Real sales history from Land Registry',
+      'Real sales history from title registries',
       'Verified homeowner reviews',
       'Average time to sell and price achieved',
       'Fee transparency and comparison',
